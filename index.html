@@ -106,7 +106,20 @@ $("#T1").text("ゆっくり、ゆっくり···");
 body{
 margin:5px 5px;
 				}
-				
+		
+body{
+ animation:fadeIn 7s ease 0s 1 normal;
+ -webkit-animation:fadeIn 7s ease 0s 1 normal;
+}
+@keyframes fadeIn{
+  0%{ opacity:0 }
+  100%{opacity:1}
+}
+  @-webkit-keyframes fadeIn{
+    0%{opacity: 0}
+    100%{opacity:1}
+}
+	
 a{
 color:white;
 	 	}
